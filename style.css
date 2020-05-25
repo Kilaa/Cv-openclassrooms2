@@ -2,3 +2,24 @@ body
 { display: flex; 
   flex-direction: row-reverse;
 }
+
+article
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+time
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ff
+{
+	margin-top: -20px;
+	margin-left: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
