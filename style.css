@@ -45,3 +45,34 @@ aside
 	flex-direction: column;
 	width: 30%;
 }
+
+img
+{
+
+	max-width: 50%;
+	height: 50%;
+
+}
+
+#Photo
+{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Titre-partie-gauche
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}	
+
+.paragraphe-partie-gauche
+
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
