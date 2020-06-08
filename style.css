@@ -44,13 +44,14 @@ aside
 	display: flex;
 	flex-direction: column;
 	width: 30%;
+
 }
 
 img
 {
 
-	max-width: 50%;
-	height: 50%;
+	max-width: 60%;
+	height: 60%;
 
 }
 
@@ -67,6 +68,10 @@ img
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: #212121;
+	color: #FFC107;
+	text-transform: uppercase;
+	height: 40px;
 }	
 
 .paragraphe-partie-gauche
