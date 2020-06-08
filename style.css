@@ -9,6 +9,8 @@ body
 article
 {
 	display: flex;
+	max-height: 190px;
+	max-width: 880px;
 
 }
 
@@ -16,6 +18,7 @@ time
 {
  
  min-width: 150px;
+ margin-right: 50px;
 
 }
 
@@ -24,9 +27,11 @@ time
 	
 	display: flex;
 	margin-top: -20px;
-	margin-left: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
 	flex-direction: column;
-	justify-content: center;
+	
+
 
 }
 
@@ -80,4 +85,27 @@ img
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.Titre-partie-droite
+{
+	margin-left: 60px;
+	text-transform: uppercase;
+}
+
+h4
+{
+	margin-bottom: 0px;
+}
+
+h5
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p
+{
+	margin-top: 0px;
+	margin-bottom: 30px;
 }
