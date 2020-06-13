@@ -9,16 +9,8 @@ body
 article
 {
 	display: flex;
-	max-height: 190px;
-	max-width: 880px;
-
-}
-
-time
-{
- 
- min-width: 150px;
- margin-right: 50px;
+	min-width: 100%;
+	max-width: 70%;
 
 }
 
@@ -27,11 +19,9 @@ time
 	
 	display: flex;
 	margin-top: -20px;
-	margin-left: 0px;
+	margin-left: 100px;
 	margin-right: 0px;
 	flex-direction: column;
-	
-
 
 }
 
@@ -62,7 +52,6 @@ img
 
 #Photo
 {
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -130,6 +119,16 @@ p
 	display: flex;
 	justify-content: center;
 	justify-content: space-around;
-	flex-grow: 2;
 
+}
+
+ul 
+{
+	list-style: none;
+}
+
+.article-recommandation
+{
+	display: flex;
+	justify-content: space-around;
 }
