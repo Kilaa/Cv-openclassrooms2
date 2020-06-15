@@ -17,10 +17,10 @@
 
 
 	<section id="Formation">
-      	<h3>Formation</h3>
+      	<h3 class="Titre-partie-droite"><i class="fas fa-graduation-cap"></i>Formation</h3>
           	<article class="article-formation">
           		<i class="far fa-dot-circle"></i><time>2019 - 2020<br>Internet</time>
-          	  <div class="paragraphe-article">
+          	  <div class="paragraphe-article1">
           		<h4>Openclassrooms</h4>
             	<h5>Développeur web</h5>
             	<p>
@@ -30,8 +30,8 @@
           	</article>
 
           	<article class="article-formation">
-          		<time>2012 - 2015<br>Massy</time>
-          	 <div class="paragraphe-article">
+          		<i class="fas fa-circle"></i><time>2012 - 2015<br>Massy</time>
+          	 <div class="paragraphe-article2">
           		<h4>Lycée Parc de Vilgénis</h4>
             	<h5>BAC PRO Microtechniques</h5>
             	<p>
@@ -44,11 +44,11 @@
 
 
 	<section id="Experience-professionelle">
-      	<h3>Expérience professionelle</h3>
+      	<h3 class="Titre-partie-droite"><i class="fas fa-briefcase"></i>Expérience professionelle</h3>
 
-          	<article>
+          	<article class="article-experience-professionelle">
             	<i class="far fa-dot-circle"></i><time>Décembre 2015 - Octobre 2016<br>Igny</time>
-             <div class="paragraphe-article">
+             <div class="paragraphe-article3">
             	<h4>Archos</h4>
             	<h5>Technicien contrôle qualité</h5>
             	<p>
@@ -59,9 +59,9 @@
              </div>
           	</article>
 
-          	<article>
-            	<time>Janvier 2014 - Avril 2014<br>Massy Palaiseau</time>
-             <div class="paragraphe-article">
+          	<article class="article-experience-professionelle">
+            	<i class="fas fa-circle"></i><time>Janvier 2014 - Avril 2014<br>Massy Palaiseau</time>
+             <div class="paragraphe-article4">
             	<h4>NCR France</h4>
             	<h5>Igny</h5>
             	<p>
@@ -72,9 +72,9 @@
              </div>
           	</article>
 
-          	  	<article>
-            	<time>Mai 2013 - Juillet 2013<br>Paris</time>
-             <div class="paragraphe-article">
+          	  	<article class="article-experience-professionelle">
+            	<i class="fas fa-circle"></i><time>Mai 2013 - Juillet 2013<br>Paris</time>
+             <div class="paragraphe-article5">
             	<h4>3D Multimedia</h4>
             	<h5>Technicien/Vendeur</h5>
             	<p>
@@ -89,11 +89,23 @@
 
 
 	<section id="Recommandations">
-      	<h3>Recommandations</h3>
-          	<article>
-            	<div class="Recommandations"></div>
-            	<div class="Recommandations"></div>
+      	<h3 class="Titre-partie-droite"><i class="fas fa-pencil-alt"></i>Recommandations</h3>
+      		<article class="article-recommandation">
+            	<div class="Bloc-recommandation">
+            		<div class="nom-recommandation">Maxime KIEMAN</div>
+                    <div class="poste-recommandation">Directeur, mon agence</div>
+                    <div class="telephone-recommandation">Téléphone : 06 00 00 0 00</div>
+                    <div class="email-recommandation">Email : name@email.com</div>
+            	</div>
+
+                <div class="Bloc-recommandation">
+                	<div class="nom-recommandation">Jeanne DROS</div>
+                    <div class="poste-recommandation">Directrice, mon agence</div>
+                    <div class="telephone-recommandation">Téléphone : 06 00 00 0 00</div>
+                    <div class="email-recommandation">Email : name@email.com</div>
+                </div>
           	</article>
+
 	</section>
 
 </div>
@@ -135,6 +147,11 @@
 
 	<section id="Loisirs">
 		<h3 class="Titre-partie-gauche">Loisirs</h3>
+		<div id="Icones-loisir">
+			<i class="fas fa-camera"></i>
+			<i class="fas fa-dumbbell"></i>
+			<i class="fas fa-paint-brush"></i>
+		</div>
 
 	</section>
 
