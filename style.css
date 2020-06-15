@@ -6,29 +6,68 @@ body
     justify-content: space-around;
 }
 
+header
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+margin-top: 50px;
+margin-bottom: 50px;
+min-height: 20%;
+margin-left: 20px;
+}
+
 article
 {
 	display: flex;
-	min-width: 100%;
-	max-width: 70%;
+	min-width: 50%;
 
 }
 
-.paragraphe-article
+.paragraphe-article1 , .paragraphe-article2 , .paragraphe-article3 , .paragraphe-article4 , .paragraphe-article5
 {
 	
 	display: flex;
-	margin-top: -20px;
-	margin-left: 100px;
-	margin-right: 0px;
+	margin-top: -22px;
 	flex-direction: column;
 
 }
+
+.paragraphe-article1 , .paragraphe-article2
+{
+
+	margin-left: 150px;
+}
+
+.paragraphe-article3
+
+{
+
+	margin-left: 105px;
+
+}
+
+.paragraphe-article4
+{
+
+	margin-left: 143px;
+
+}
+
+.paragraphe-article5
+{
+
+	margin-left: 147px;
+
+}
+
 
 #partie-droite
 {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	width:70%;
 	margin-left: 20px;
 }
@@ -39,15 +78,13 @@ aside
 	display: flex;
 	flex-direction: column;
 	width: 30%;
-
+	
 }
 
 img
 {
-
 	max-width: 60%;
 	height: 60%;
-
 }
 
 #Photo
@@ -55,6 +92,10 @@ img
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	min-height: 20%;
+	
 }
 
 .Titre-partie-gauche
@@ -66,10 +107,10 @@ img
 	color: #FFC107;
 	text-transform: uppercase;
 	height: 40px;
+
 }	
 
 .paragraphe-partie-gauche
-
 {
 	display: flex;
 	justify-content: center;
@@ -91,16 +132,22 @@ h1
 }
 
 h2
-
 {
 	margin-top: 0px;
 	margin-left: 20px;
 }
 
+h3
+{
+
+}
+
+
 h4
 {
 	margin-bottom: 0px;
 }
+
 
 h5
 {
@@ -131,4 +178,42 @@ ul
 {
 	display: flex;
 	justify-content: space-around;
+}
+
+time
+
+{
+	min-width: 15%;
+}
+
+#Formation
+
+{
+	min-height: 30%;
+}
+
+#Experience-professionelle
+
+{
+	min-height: 40%;
+}
+
+#Recommandations
+{
+	min-height: 10%;
+}
+
+#A-propos-de-moi
+{
+	min-height: 40%;
+}
+
+#Contact
+{
+	min-height: 30%;
+}
+
+i
+{
+	color: #FFC107;
 }
