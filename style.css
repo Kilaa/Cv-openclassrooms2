@@ -14,7 +14,6 @@ justify-content: center;
 align-items: flex-start;
 margin-top: 50px;
 margin-bottom: 50px;
-min-height: 20%;
 margin-left: 20px;
 }
 
@@ -121,6 +120,9 @@ img
 {
 	margin-left: 60px;
 	text-transform: uppercase;
+	margin-bottom: 40px;
+	border-bottom:solid 1px #FFC107;
+
 }
 
 h1
@@ -169,6 +171,19 @@ p
 
 }
 
+.fa-paint-brush, .fa-dumbbell, .fa-camera
+{
+	margin-top: 20px;
+	color: black;
+  	border: 1px solid black;
+  	border-radius: 50%; 
+
+ }
+
+{
+	color: 
+}
+
 ul 
 {
 	list-style: none;
@@ -186,34 +201,41 @@ time
 	min-width: 15%;
 }
 
-#Formation
-
-{
-	min-height: 30%;
-}
-
-#Experience-professionelle
-
-{
-	min-height: 40%;
-}
-
-#Recommandations
-{
-	min-height: 10%;
-}
-
-#A-propos-de-moi
-{
-	min-height: 40%;
-}
-
-#Contact
-{
-	min-height: 30%;
-}
-
 i
 {
+	margin-right: 10px;
 	color: #FFC107;
+}
+
+span
+{
+	color: #FFC107;
+}
+
+#Loisirs
+{
+	margin-top: 200px;
+}
+
+@media screen and (max-width: 991.9px)
+{
+
+	
+	body
+	{
+		width: auto;
+	}
+
+    .paragraphe-article4
+    {
+    	margin-left: 180px;
+    }
+
+    .paragraphe-article5
+    {
+    	margin-left: 153px;
+    }
+
+    
+
 }
